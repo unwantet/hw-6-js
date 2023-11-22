@@ -1,29 +1,26 @@
 
 
-// const random = Math.floor(Math.random() * 50) + 1;
+// const num = Math. ceil (Math.random() * 50);
 
-// let number = alert(+prompt('Guess a number from 1 to 50: '));
+// let attempts = 10;
 
-// function guessNumber() {
+// let h = "";
 
-//     if(number == random) {
-//        alert('You guessed the correct number.');
+// while (attempts) {
+//     let son = prompt ("O'ylagan sonimi top : " + h);
+    
+//     if (num == son) {
+//     alert("Congratulations!");
+//     attempts = 11; 
 //     }
-
 //     else {
-//         for(let a = 1 ; a<=10;a++){
-//             if(number !== random) {
-//                 number = alert(prompt('Guess a number from 1 to 50: '));
-//             }
-//         }
-
-//         alert("you not guessed my number xaxax looser😂🥲")
+//     attempts--;
+//     h += " " + son;
 //     }
-
-
-//   }
-
-// guessNumber();
+//     if (attempts == 0){
+//         alert("Afsus wans tugad")
+//     }
+// }
 
 //////////////////////////////////////////////////////////////
 
@@ -46,7 +43,3 @@
 
 
 // Math.sin(90 * Math.PI / 180); // 1ni qaytaradi (90 daraja sinus)
-
-//
-
-  
